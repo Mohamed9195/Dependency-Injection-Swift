@@ -15,6 +15,7 @@
 		7D79688B238E5527001DE833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D796889238E5527001DE833 /* LaunchScreen.storyboard */; };
 		7D796896238E5527001DE833 /* Dependency_InjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D796895238E5527001DE833 /* Dependency_InjectionTests.swift */; };
 		7D7968A1238E555D001DE833 /* DataNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7968A0238E555D001DE833 /* DataNetwork.swift */; };
+		7D7968A5238E5C5A001DE833 /* sample Example Dependency injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7968A4238E5C5A001DE833 /* sample Example Dependency injection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		7D796895238E5527001DE833 /* Dependency_InjectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency_InjectionTests.swift; sourceTree = "<group>"; };
 		7D796897238E5527001DE833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D7968A0238E555D001DE833 /* DataNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataNetwork.swift; sourceTree = "<group>"; };
+		7D7968A4238E5C5A001DE833 /* sample Example Dependency injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sample Example Dependency injection.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +83,8 @@
 		7D79687D238E5520001DE833 /* Dependency Injection */ = {
 			isa = PBXGroup;
 			children = (
-				7D79687E238E5520001DE833 /* AppDelegate.swift */,
-				7D796880238E5520001DE833 /* SceneDelegate.swift */,
+				7D7968A3238E5C2C001DE833 /* support File */,
 				7D7968A2238E56A2001DE833 /* Dependecy */,
-				7D796884238E5520001DE833 /* Main.storyboard */,
-				7D796887238E5527001DE833 /* Assets.xcassets */,
-				7D796889238E5527001DE833 /* LaunchScreen.storyboard */,
-				7D79688C238E5527001DE833 /* Info.plist */,
 			);
 			path = "Dependency Injection";
 			sourceTree = "<group>";
@@ -106,8 +103,22 @@
 			children = (
 				7D796882238E5520001DE833 /* ViewController.swift */,
 				7D7968A0238E555D001DE833 /* DataNetwork.swift */,
+				7D7968A4238E5C5A001DE833 /* sample Example Dependency injection.swift */,
 			);
 			path = Dependecy;
+			sourceTree = "<group>";
+		};
+		7D7968A3238E5C2C001DE833 /* support File */ = {
+			isa = PBXGroup;
+			children = (
+				7D79687E238E5520001DE833 /* AppDelegate.swift */,
+				7D796880238E5520001DE833 /* SceneDelegate.swift */,
+				7D796884238E5520001DE833 /* Main.storyboard */,
+				7D796887238E5527001DE833 /* Assets.xcassets */,
+				7D796889238E5527001DE833 /* LaunchScreen.storyboard */,
+				7D79688C238E5527001DE833 /* Info.plist */,
+			);
+			name = "support File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				7D7968A1238E555D001DE833 /* DataNetwork.swift in Sources */,
 				7D796883238E5520001DE833 /* ViewController.swift in Sources */,
 				7D79687F238E5520001DE833 /* AppDelegate.swift in Sources */,
+				7D7968A5238E5C5A001DE833 /* sample Example Dependency injection.swift in Sources */,
 				7D796881238E5520001DE833 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
