@@ -9,18 +9,15 @@
 import Foundation
 import UIKit
 
+
+/////////////////////////////////////////////////////////////////////////////////////////
+//MARKT:- First EXample
 protocol DataFromFirepase {
     func getDataFirbase() -> String
     func setDataFirebase(_ data: String)
 }
 
-protocol DataFromAWS {
-    func getDataAWS() -> String
-    func setDataAWS(_ data: String)
-}
-
-
-/// we found douplicate 
+/// we found douplicate  not using Debendency
 class UsingFirebase1: DataFromFirepase {
     func getDataFirbase() -> String {
        "data 1 is correct"
@@ -42,7 +39,24 @@ class UsingFirebase2: DataFromFirepase {
 }
 
 
+/// using dependency injection
+class ViewControllerUsingFirebaseWithDependency {
+    
+    var testObject: DataFromFirepase?
+    
+    init(usingAnyObject: DataFromFirepase) {
+        testObject? = usingAnyObject
+    }
+    
+    func runAnyObject() {
+        _ = testObject?.getDataFirbase()
+        testObject?.setDataFirebase("ttttt")
+    }
+}
 
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
 //MARKT:- secound EXample
 
 protocol drowing {
