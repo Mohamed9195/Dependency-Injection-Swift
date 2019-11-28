@@ -16,6 +16,8 @@
 		7D796896238E5527001DE833 /* Dependency_InjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D796895238E5527001DE833 /* Dependency_InjectionTests.swift */; };
 		7D7968A1238E555D001DE833 /* DataNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7968A0238E555D001DE833 /* DataNetwork.swift */; };
 		7D7968A5238E5C5A001DE833 /* sample Example Dependency injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7968A4238E5C5A001DE833 /* sample Example Dependency injection.swift */; };
+		7D7968A7238FAA76001DE833 /* Injection property&Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7968A6238FAA76001DE833 /* Injection property&Method.swift */; };
+		7D7968A9238FAD9D001DE833 /* test Dependency Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7968A8238FAD9D001DE833 /* test Dependency Injection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		7D796897238E5527001DE833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D7968A0238E555D001DE833 /* DataNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataNetwork.swift; sourceTree = "<group>"; };
 		7D7968A4238E5C5A001DE833 /* sample Example Dependency injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sample Example Dependency injection.swift"; sourceTree = "<group>"; };
+		7D7968A6238FAA76001DE833 /* Injection property&Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Injection property&Method.swift"; sourceTree = "<group>"; };
+		7D7968A8238FAD9D001DE833 /* test Dependency Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test Dependency Injection.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				7D796882238E5520001DE833 /* ViewController.swift */,
 				7D7968A0238E555D001DE833 /* DataNetwork.swift */,
 				7D7968A4238E5C5A001DE833 /* sample Example Dependency injection.swift */,
+				7D7968A6238FAA76001DE833 /* Injection property&Method.swift */,
+				7D7968A8238FAD9D001DE833 /* test Dependency Injection.swift */,
 			);
 			path = Dependecy;
 			sourceTree = "<group>";
@@ -227,6 +233,8 @@
 				7D79687F238E5520001DE833 /* AppDelegate.swift in Sources */,
 				7D7968A5238E5C5A001DE833 /* sample Example Dependency injection.swift in Sources */,
 				7D796881238E5520001DE833 /* SceneDelegate.swift in Sources */,
+				7D7968A9238FAD9D001DE833 /* test Dependency Injection.swift in Sources */,
+				7D7968A7238FAA76001DE833 /* Injection property&Method.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
